@@ -1,6 +1,6 @@
 function firstChar(text) {
   // your code here
-	text.replace(/" "/g,"");
+	text=text.trimStart()
 	if(text==""){
 		return ""
 	}else{
@@ -8,7 +8,7 @@ function firstChar(text) {
 	}
 }
 
-// Do not change the code below
+// Do not change the code belo
 //Uncomment the following line to show the prompt popup
 const text = prompt("Enter text:");
 alert(firstChar(text));
