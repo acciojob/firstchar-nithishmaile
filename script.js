@@ -1,5 +1,11 @@
 function firstChar(text) {
   // your code here
+	text.replace(/" "/g,"");
+	if(text==""){
+		return ""
+	}else{
+		return text[0]
+	}
 }
 
 // Do not change the code below
